@@ -138,7 +138,8 @@ class GroupResource extends Resource
 
     public static function getRelations(): array
     {
-        return [];
+        return [RelationManagers\ProductsRelationManager::class,
+        ];
     }
 
     public static function getPages(): array
